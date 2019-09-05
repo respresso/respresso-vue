@@ -60,6 +60,15 @@ npm install respresso --dev
 
 # Respresso Vue demo.
 
+## Try it
+
+1. Install any packages that it depends on   
+```npm install```
+2. Sync resource files   
+```npm run sync```
+3. Start running the server  
+```npm run serve```
+
 ### Localization
 
 This demo uses [vue-i18n](https://github.com/kazupon/vue-i18n), so you can find all relevant info there. Respresso files are imported in *src/i18n.js*.
@@ -76,13 +85,9 @@ Find a sample use of svg in *src/App.vue*.
 
 TBD
 
+## Available Scripts
 
-## Project setup
-```
-npm install
-```
-
-## Synchronize from Respresso server
+### Synchronize from Respresso server
 ```
 npm run sync
 ```
