@@ -6,7 +6,6 @@ It allows you to simply import the latest assets into your workspace.
 You may store several versions of the same resource in the cloud and pick the ones you need to import.
 Respresso currently supports five types of resources:
 * Images
-* App icons
 * Localization
 * Fonts
 * Colors
@@ -29,7 +28,6 @@ In *respresso.json* you can customize:
 
 The currently accepted resource names are:
 * image
-* appIcon
 * color
 * localization
 * font
@@ -83,7 +81,7 @@ Find a sample use of svg in *src/App.vue*.
 
 ### Fonts
 
-TBD
+Find a sample use of fonts in  *src/App.vue*.
 
 ## Available Scripts
 

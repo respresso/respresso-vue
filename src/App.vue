@@ -36,7 +36,7 @@
                         {{$t('main.promo_message')}}</h1>
                     <div class="w-100 ">
                         <button class="btn btn-white color-green rounded-lg px-5 py-2 shadow border-0 text-size-bigger font-weight-bold cta">
-                            {{$t('main.check_it')}}}
+                            {{$t('main.check_it')}}
                         </button>
                     </div>
                 </div>
@@ -69,9 +69,30 @@
 
 <style lang="scss">
     @import "../respresso/respresso-colors";
-    @import "../respresso.images";
+    @import "../respresso/images";
     @import "bootstrap.css";
     @import "bootstrap-reboot.css";
+
+    @font-face {
+    font-family: "OpenSans";
+        src: url("../respresso/font/open_sans_regular.ttf") format("truetype");
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: "OpenSans";
+        src: url("../respresso/font/open_sans_bold.ttf") format("truetype");
+        font-weight: 700;
+    }
+
+    body {
+        font-family: 'OpenSans', sans-serif;
+        font-weight:400;
+    }
+
+    h1, h2, h3, h4 {
+        font-weight: 700;
+    }
 
     .hero {
         display: flex;
